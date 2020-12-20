@@ -1,5 +1,5 @@
-const clientID = '<ADD CLIENT ID>';
-const redirectURI = "http://localhost:3000/";
+const clientID = '<ENTER CLIENT ID';
+const redirectURI = "<ENTER REDIRECT URI>";
 
 let accessToken;
 
@@ -41,7 +41,8 @@ const Spotify = {
                 name: track.name,
                 artist: track.artists[0].name,
                 album: track.album.name,
-                uri: track.uri
+                uri: track.uri,
+                preview: track.preview_url
             }));
         });
     },
