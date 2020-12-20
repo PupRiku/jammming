@@ -10,7 +10,7 @@ export class Track extends React.Component {
             return <button className="Track-action">+</button>
         }
     }
-    
+
     render() {
         return(
             <div className="Track">
@@ -23,3 +23,5 @@ export class Track extends React.Component {
         );
     }
 }
+
+export default Track;
